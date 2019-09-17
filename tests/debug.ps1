@@ -1,3 +1,3 @@
-Import-Module ..\modules\bitsadmin\bitsadmin
+Import-Module ..\modules\certutil\certutil
 
-Start-Bits
+Start-Certutil

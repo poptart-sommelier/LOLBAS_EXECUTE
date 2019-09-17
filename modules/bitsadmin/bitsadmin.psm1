@@ -72,8 +72,6 @@ function Start-Bits {
     # clean up - this should be a seperate function
     Remove-Item -Path $tempdir\*
 
-
-    $logged_content = ""
     # Write out log
     Out-File -InputObject $logged_content -FilePath $logfile
 
