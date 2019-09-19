@@ -1,3 +1,3 @@
-Import-Module ..\modules\certutil\certutil
+Import-Module ..\modules\atbroker\atbroker.psm1
 
-Start-Certutil
+Start-Atbroker
