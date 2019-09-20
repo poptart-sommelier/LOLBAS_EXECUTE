@@ -26,13 +26,11 @@ function Start-TechniqueOne {
         [String] $lolbinpath
     )
 
-    $lolbinparams = '-c calc.exe'
-
     # Store command output
     $logged_content = ""
 
     Write-Log("Starting Technique One")
-    $logged_content += & $lolbinpath $lolbinparams
+    $logged_content += & $lolbinpath -c calc.exe
     Write-Log($logged_content)
 }
 

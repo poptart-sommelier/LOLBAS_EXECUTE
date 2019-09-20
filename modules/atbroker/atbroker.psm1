@@ -37,7 +37,7 @@ function Start-TechniqueOne {
 
     # Start malicious binary
     Write-Log("Starting: Technique 1")
-    $logged_content += & $lolbinpath /start malware
+    $logged_content += & $lolbinpath /start malware 2>&1
     Write-Log($logged_content)
 }
 
